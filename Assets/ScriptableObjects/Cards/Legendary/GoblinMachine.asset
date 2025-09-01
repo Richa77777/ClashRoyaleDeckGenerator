@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2fb0680ba96f5345846e4d98c24ef01, type: 3}
+  m_Name: GoblinMachine
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 26000096
+  <Name>k__BackingField: "\u0413\u041E\u041E\u041E\u041E\u0411\u041B\u0418\u041D
+    \u041C\u0410\u0429\u0418\u0418\u0418\u0418\u041D"
+  <ElixirCost>k__BackingField: 5
+  <Rarity>k__BackingField: 3
+  <Sprite>k__BackingField: {fileID: 21300000, guid: 1755757d0f8aec545902ba4cedf331a2, type: 3}
