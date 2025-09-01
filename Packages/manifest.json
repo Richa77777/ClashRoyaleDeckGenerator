@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.rimurudev.unity-skip-splashscreen": "https://github.com/RimuruDev/UnitySkipSplashScreen.git",
     "com.unity.collab-proxy": "2.9.2",
     "com.unity.device-simulator.devices": "1.0.0",
     "com.unity.feature.2d": "2.0.1",

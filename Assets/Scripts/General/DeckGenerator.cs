@@ -42,9 +42,13 @@ public class DeckGenerator
 
     public string GenerateDeckLink(Deck deck)
     {
-        string deckIdsString = string.Join(";", deck.Cards.Select(c => c.Id));
-        return $"https://link.clashroyale.com/en?clashroyale://copyDeck?deck={deckIdsString}&slots=0;0;0;0;0;0;0;0&tt={deck.TowerCard.Id}&l=Royals";
+        string deckIdsString = string.Join(";", deck.Cards
+            .Select(c => c.Id.Trim()));
+        string towerId = deck.TowerCard.Id.Trim();
+
+        return $"https://link.clashroyale.com/en?clashroyale://copyDeck?deck={deckIdsString}&slots=0;0;0;0;0;0;0;0&tt={towerId}&l=Royals";
     }
+
 
     private CardModel GetRandomTowerCard()
     {
