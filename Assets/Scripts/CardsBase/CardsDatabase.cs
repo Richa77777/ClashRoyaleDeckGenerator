@@ -5,6 +5,8 @@ using UnityEngine;
 public class CardsDatabase : ScriptableObject
 {
     [SerializeField] private List<CardModel> _cards = new();
+    [SerializeField] private List<CardModel> _towerCards = new();
 
     public IReadOnlyList<CardModel> Cards => _cards;
+    public IReadOnlyList<CardModel> TowerCards => _towerCards;
 }
